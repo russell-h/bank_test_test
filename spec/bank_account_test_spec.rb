@@ -18,7 +18,11 @@ RSpec.describe BankAccount, "#sets initial deposit 0" do
     myacc.withdraw(100)
     expect(myacc.balance).to eq -100
   end  
-
+  it "prints a statement" do
+    myacc = BankAccount.new 
+    myacc.withdraw(100)
+    expect(myacc.statement).to eq "date || credit || debit || balance"
+  end  
 
 
 
