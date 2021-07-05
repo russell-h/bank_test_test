@@ -23,7 +23,7 @@ class BankAccount
   end
   
   def statementHeader
-    puts "date || credit || debit || balance"
+    "date || credit || debit || balance"
   end
 
 end
