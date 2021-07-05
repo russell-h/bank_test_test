@@ -13,5 +13,15 @@ RSpec.describe BankAccount, "#sets initial deposit 0" do
     expect(myacc.balance).to eq 100
   end  
 
+  it "makes a withdrawal" do
+    myacc = BankAccount.new 
+    myacc.withdraw(100)
+    expect(myacc.balance).to eq -100
+  end  
+
+
+
+
+
 
 end
