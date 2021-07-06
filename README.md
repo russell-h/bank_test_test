@@ -1,4 +1,4 @@
-**Bank statement**
+## Bank statement
 
 >The program is coded in Ruby  
 >Interact with the program via REPL, in this case IRB
@@ -18,7 +18,7 @@ An example to run the code in irb -
 - i was blocked on testing for a large formatted multi line output 
 
 
-**Acceptance criteria**
+**Acceptance criteria**  
 Given a client makes a deposit of 1000 on 10-01-2012  
 And a deposit of 2000 on 13-01-2012  
 And a withdrawal of 500 on 14-01-2012  
@@ -58,6 +58,6 @@ withdraw    | (minus funds, balance, date)|amount & date
 
 **Methods** | **Scenario** | **input** | **output**  
 -|-|-|-
-statement#print |print the statement |statement info |date, deposit,withdrawal, balance 
+statement#print |print the statement |statement info |date, deposit, withdrawal, balance 
 deposit#amount, date    | add funds to the account|deposit(amount, date)|balance updated
 withdraw #amount, date   | minus funds form the account| withdraw(amount, date)|balance updated
