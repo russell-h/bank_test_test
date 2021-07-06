@@ -1,13 +1,16 @@
 class BankAccount
 
+  attr_reader :balance
+
   def initialize
     @balance = 0
     @account_arr = []
   end
 
-  def balance 
-    @balance 
-  end
+  # method below can be deleted and replaced with the attribute reader :-  attr_reader :balance
+  # def balance 
+  #   @balance 
+  # end
 
   def statement_info
     @account_arr.sort.reverse

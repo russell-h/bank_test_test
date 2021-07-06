@@ -27,12 +27,12 @@ User Stories
 Domain model
 ----
 **Nouns**
-statement
+statement,
 balance
 
 **Verbs**
-print
-deposit
+print,
+deposit,
 withdraw
 
 **Objects** | **Messages**
