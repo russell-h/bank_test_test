@@ -12,6 +12,11 @@ An example to run the code in irb -
 - user1.withdraw(500, 14012012)
 - user1.statement
 
+**Things that don't work(problems and blockers)**
+- amount is displayed as 100.0 rather than 100.00
+- a false date can be entered ie, 43509090
+- i was blocked on testing for a large formatted multi line output 
+
 
 Acceptance criteria
 Given a client makes a deposit of 1000 on 10-01-2012  
