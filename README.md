@@ -3,12 +3,14 @@ Bank statement
 >The program is coded in Ruby  
 >Interact with the program via REPL, in this case IRB
 
-An example to run the code in irb  
--  require './lib/bank_account.rb'
+An example to run the code in irb -
+- deposit and withdraw are entered with amount in integers and date in format DDMMYYYY 
+- require './lib/bank_account.rb'
 - user1 = BankAccount.new
 - user1.deposit(1000, 10012012)
 - user1.deposit(2000, 13012012)
-user1.withdraw(500, 14012012)
+- user1.withdraw(500, 14012012)
+- user1.statement
 
 
 Acceptance criteria
